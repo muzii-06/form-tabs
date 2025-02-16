@@ -11,7 +11,15 @@ const Forms = () => {
 
   return (
     <div className="container">
+       <div className="d-flex  align-items-center justify-content-end gap-3">
+        <button className="btn bg-danger p-2 text-white fw-bold">Back to Dashboard</button>
+        <button className="btn bg-success p-2 text-white fw-bold">Rent owner list</button>
+
+      </div>
+
       <h2 className="form-title">Rent Owner Form</h2>
+     
+     
 
       {/* Navigation Tabs */}
       <ul className="nav-tabs">
